@@ -1,21 +1,4 @@
-#----------------------------------------------------------------------------
-# On command line:
-#
-# make = Make software.
-#
-# make clean = Clean out built project files.
-#
-# That's pretty much all you need. To compile, always go make clean, 
-# followed by make.
-#
-# For advanced users only:
-# make teensy = Download the hex file to the device, using teensy_loader_cli.
-#               (must have teensy_loader_cli installed).
-#
-#----------------------------------------------------------------------------
-# Build Options
-#   comment out to disable the options.
-#
+SUBPROJECT_DEFAULT = ez
 BOOTMAGIC_ENABLE = no  # Virtual DIP switch configuration(+1000)
 MOUSEKEY_ENABLE  = yes # Mouse keys(+4700)
 EXTRAKEY_ENABLE  = yes # Audio control and System control(+450)
