@@ -1,4 +1,3 @@
-SUBPROJECT_DEFAULT = rev2
 # MCU name
 #MCU = at90usb1287
 MCU = atmega32u4

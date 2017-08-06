@@ -295,7 +295,9 @@ define PARSE_SUBPROJECT
     endif
     ifeq ($$(CURRENT_SP),defaultsp)
         SUBPROJECT_DEFAULT=
-        $$(eval include $(ROOT_DIR)/keyboards/$$(CURRENT_KB)/rules.mk)
+        ifneq ("$(wildcard $(ROOT_DIR)/keyboards/$$(CURRENT_KB)/subproject.mk)","")
+            $$(eval include $(ROOT_DIR)/keyboards/$$(CURRENT_KB)/subproject.mk)
+        endif
         CURRENT_SP := $$(SUBPROJECT_DEFAULT)
     endif
     # If current subproject is empty (the default was not defined), and we have a list of subproject

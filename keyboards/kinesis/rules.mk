@@ -1,4 +1,3 @@
-SUBPROJECT_DEFAULT = alvicstep
 ## Project specific files
 
 SRC=  matrix.c 

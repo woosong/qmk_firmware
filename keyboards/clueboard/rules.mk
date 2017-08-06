@@ -1,4 +1,3 @@
-SUBPROJECT_DEFAULT = rev2
 MCU = atmega32u4
 # Processor frequency.
 F_CPU = 16000000

@@ -1,4 +1,3 @@
-SUBPROJECT_DEFAULT = v2
 SRC += matrix.c \
 	   i2c.c \
 	   split_util.c \

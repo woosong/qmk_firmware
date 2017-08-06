@@ -1,4 +1,3 @@
-SUBPROJECT_DEFAULT = stm32_f072_onekey
 #BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes	# Mouse keys
 EXTRAKEY_ENABLE = yes	# Audio control and System control
