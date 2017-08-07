@@ -16,9 +16,10 @@
   * [Backlight](feature_backlight.md)
   * [Bootmagic](feature_bootmagic.md)
   * [Dynamic Macros](dynamic_macros.md)
-  * [Leader Key](leader_key.md)
+  * [Leader Key](feature_leader_key.md)
   * [Macros](macros.md)
   * [Mouse keys](mouse_keys.md)
+  * [PS2 Mouse](feature_ps2_mouse.md)
   * [Space Cadet](space_cadet_shift.md)
   * [Tap Dance](tap_dance.md)
   * [Thermal Printer](feature_thermal_printer.md)
@@ -29,7 +30,7 @@
   * [Glossary](glossary.md)
   * [Keymap overview](keymap.md)
   * [Keycodes](keycodes.md)
-    * [Basic](basic_keycodes.md)
+    * [Basic](keycodes_basic.md)
     * [Quantum](quantum_keycodes.md)
     * [Backlight](feature_backlight.md#backlight-keycodes)
     * [Bluetooth](feature_bluetooth.md#bluetooth-keycodes)
@@ -39,6 +40,7 @@
     * [Mod Tap](feature_common_shortcuts.md#mod-tap)
     * [One Shot Keys](feature_common_shortcuts.md#one-shot-keys)
     * [Shifted Keys](feature_common_shortcuts.md#shifted-keycodes)
+    * [Stenography](stenography.md#keycode-reference)
     * [RGB Light](feature_rgblight.md#rgblight-keycodes)
     * [Thermal Printer](feature_thermal_printer.md#thermal-printer-keycodes)
     * [US ANSI Shifted Keys](keycodes_us_ansi_shifted.md)
@@ -56,7 +58,7 @@
   * [Porting your keyboard to QMK](porting_your_keyboard_to_qmk.md)
 
 * For a Deeper Understanding
-  * [How Keyboards Work](basic_how_keyboards_work.md)
+  * [How Keyboards Work](how_keyboards_work.md)
   * [Understanding QMK](understanding_qmk.md)
 
 * Other Topics
