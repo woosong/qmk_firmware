@@ -24,6 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "../../config.h"
 
+#define LSPO_KEY KC_LBRC
+#define RSPC_KEY KC_RBRC
+
 /* Use I2C or Serial, not both */
 
 #define USE_SERIAL
